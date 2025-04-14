@@ -14,8 +14,8 @@ import jakarta.persistence.Entity;
 public class ProcessCategory extends NamedEntity {
 
     private String iconClass;
-    @Convert(converter = TopMenuConvert.class)
-    private TopMenu topMenu;
+//    @Convert(converter = TopMenuConvert.class)
+//    private TopMenu topMenu;
 
 
 }
