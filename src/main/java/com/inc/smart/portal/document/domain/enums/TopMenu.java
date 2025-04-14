@@ -18,6 +18,7 @@ public enum TopMenu {
         this.name = name;
     }
 
+    
     //return List<int>
     public static List<Integer> topMenuCodeList() {
         return Arrays.stream(values())
